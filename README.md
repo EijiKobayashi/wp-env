@@ -62,6 +62,8 @@ $ npx wp-env run cli wp db export sql/wordpress.sql
 
 ### データーベース情報
 
+| &nbsp;&nbsp; | 入力項目 | 
+| ------------ |------------ |
 | user | root |
 | password | password |
 | db | wordpress |
