@@ -1,0 +1,11 @@
+Thumbs.db
+Desktop.ini
+.DS_Strore
+*.exe
+._
+
+conf/*
+logs/*
+
+# Node artifact files
+node_modules/

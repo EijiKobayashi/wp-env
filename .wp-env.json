@@ -1,0 +1,21 @@
+{
+  "core": "https://ja.wordpress.org/latest-ja.zip",
+  "phpVersion": null,
+  "port": 3030,
+  "env": {
+    "tests": {
+      "port": 3031
+    }
+  },
+  "mappings": {
+    "wp-content/plugins": "./public/plugins",
+    "wp-content/themes": "./public/themes",
+    "wp-content/uploads": "./public//uploads",
+    "wp-content/adminer": "./public/adminer",
+    "sql": "./sql"
+  },
+  "config": {
+    "WP_DEBUG": true,
+    "SCRIPT_DEBUG": true
+  }
+}
