@@ -1,6 +1,9 @@
 {
   "scripts": {
-    "wp-env": "wp-env"
+    "wp-env": "wp-env",
+    "start": "wp-env start && open http://localhost:3030",
+    "stop": "wp-env stop",
+    "destroy": "wp-env destroy"
   },
   "devDependencies": {
     "@wordpress/env": "^5.7.0"

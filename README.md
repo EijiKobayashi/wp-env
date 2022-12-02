@@ -62,13 +62,13 @@ $ npx wp-env run cli wp db export sql/wordpress.sql
 
 ### データーベース情報
 
-| &nbsp;&nbsp; | 入力項目 | 
-| ------------ |------------ |
-| user | root |
-| password | password |
-| db | wordpress |
-| host | 127.0.0.1 |
-| port | docker ps |
+| &nbsp;&nbsp; | 入力項目  |
+| ------------ | --------- |
+| USER         | root      |
+| PASSWORD     | password  |
+| DB           | wordpress |
+| HOST         | 127.0.0.1 |
+| PORT         | docker ps |
 
 ### 最初からやり直す
 
@@ -84,3 +84,4 @@ $ npx wp-env destroy
 
 - [@wordpress/env](https://ja.wordpress.org/team/handbook/block-editor/reference-guides/packages/packages-env/)
 - [@wordpress/env(wp-env)を使った WordPress 開発環境構築](https://codecodeweb.com/blog/699/)
+- [wp-env でテーマ・プラグイン開発環境を作る](https://yosiakatsuki.net/blog/wp-env-install/)
